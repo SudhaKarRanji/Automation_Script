@@ -10,7 +10,7 @@ import smtplib
 #Selenium automation
 driver = webdriver.Chrome(service_log_path='NUL')
 url = "https://hacktoberfest.digitalocean.com/profile"
-CREDS = {'user':'sudhaKarRanji','pass':'loverking@88'}
+CREDS = {'user':'Your Username','pass':'Your Password'}
 
 driver.get(url)
 print("URL WORKING")
